@@ -6,7 +6,7 @@ const EventItem = ({ title }) => {
     return (
         <div className="min-w-201px text-left">
             <img src={eventBGUrl} alt="event img" className="rounded" />
-            <div className="px-10px pb-12px">
+            <div className="px-10px pb-3">
                 <div className="mt-4 text-12px font-400 text-left">
                     <img src={calendarSVGUrl} alt="" className="w-13px inline-block align-middle" />
                     <span className="text-[#333] opacity-60 ml-1 align-middle">2021/02/10 ~ 2021/02/28</span>

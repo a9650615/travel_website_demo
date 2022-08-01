@@ -5,7 +5,7 @@ import arrowSVGUrl from '../../resources/icon/arrow.svg';
 const Events = ({ titleName, items = [] }) => {
     return (
         <Container>
-            <div className="mt-11">
+            <div className="mt-10">
                 <div className="flex space-x-2">
                     <div className="bg-[#23BFD4] w-3 h-24px my-auto"></div>
                     <div className="flex w-full">
