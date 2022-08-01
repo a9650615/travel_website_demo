@@ -2,6 +2,7 @@ import Events from '../compoents/Event/Events';
 import Heading from '../compoents/heading';
 import HeroSection from '../compoents/HeroSection';
 import PopulateCities from '../compoents/PopulateCities';
+import Footer from '../compoents/Footer';
 
 const Landing = () => (
     <div>
@@ -13,6 +14,7 @@ const Landing = () => (
         <PopulateCities />
         <Events titleName="熱門美食" items={['海洋城活海鮮餐廳', '海洋城活海鮮餐廳', '海洋城活海鮮餐廳']} />
         <Events titleName="熱門住宿" items={['晶華酒店', '凱薩飯店', '福田居民宿']}/>
+        <Footer />
     </div>
 );
 
