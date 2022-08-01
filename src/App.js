@@ -1,4 +1,6 @@
 import { Routes, Route } from "react-router-dom";
+import Landing from './pages/landing';
+
 import './virtual:windi.css';
 import "./App.css";
 
@@ -6,7 +8,7 @@ function App() {
   return (
     <div className='App'>
       <Routes>
-        <Route path='/' />
+        <Route path='/' element={<Landing />} />
       </Routes>
     </div>
   );
