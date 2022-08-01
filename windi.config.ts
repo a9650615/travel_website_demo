@@ -15,6 +15,9 @@ export default defineConfig({
       },
       boxShadow: {
         'default': '0px 4px 8px rgba(0, 0, 0, 0.25)'
+      },
+      borderColor: {
+        'gray': 'rgba(51, 51, 51, 0.2)',
       }
     }
   }
