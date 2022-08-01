@@ -4,14 +4,14 @@ import calendarSVGUrl from '../../resources/icon/calendar.svg';
 
 const EventItem = ({ title }) => {
     return (
-        <div className="min-w-201px text-left">
-            <img src={eventBGUrl} alt="event img" className="rounded" />
+        <div className="min-w-201px text-left md:min-w-255px">
+            <img src={eventBGUrl} alt="event img" className="rounded w-full" />
             <div className="px-10px pb-3">
                 <div className="mt-4 text-12px font-400 text-left">
                     <img src={calendarSVGUrl} alt="" className="w-13px inline-block align-middle" />
                     <span className="text-[#333] opacity-60 ml-1 align-middle">2021/02/10 ~ 2021/02/28</span>
                 </div>
-                <h3 className="mt-2 font-600 text-base">{title}</h3>
+                <h3 className="mt-2 font-600 text-base md:text-20px">{title}</h3>
                 <div className="mt-1 text-12px font-400 text-left">
                     <img src={locationSVGUrl} alt="" className="w-12px inline-block align-middle" />
                     <span className="text-[#23BFD4] opacity-60 ml-1 align-middle font-400">宜蘭縣</span>
