@@ -1,6 +1,6 @@
 import Events from '../compoents/Event/Events';
 import Heading from '../compoents/heading';
-import HeroSection from '../compoents/HeroSection';
+import HeroSection from '../compoents/heroSection';
 import PopulateCities from '../compoents/PopulateCities';
 import Footer from '../compoents/Footer';
 
