@@ -29,11 +29,11 @@ const PopulateCities = () => (
                 <div className="flex space-x-4 mt-4">
                     <div className="flex-1 flex relative justify-center items-center">
                         <h3 className="text-white font-600 font-20px z-10 text-xl absolute">花蓮</h3>
-                        <img src={tainanURL} alt="" className="rounded w-full" />
+                        <img src={hualienURL} alt="" className="rounded w-full" />
                     </div>
                     <div className="flex-1 flex relative justify-center items-center">
                         <h3 className="text-white font-600 font-20px z-10 text-xl absolute">台中</h3>
-                        <img src={taipeiURL} alt="" className="rounded w-full" />
+                        <img src={taichungURL} alt="" className="rounded w-full" />
                     </div>
                 </div>
             </div>
